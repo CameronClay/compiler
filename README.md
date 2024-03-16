@@ -23,4 +23,4 @@ Syntax: compiler src [-icode] [-sym] [-lex]
 - [-icode] Will output the intermediate code to the console.
 
 ## Note
-The code for this project is private but I am more than happy to show and expain it during an interview.
+The code for this project is private but I am more than happy to show and expain the code.
