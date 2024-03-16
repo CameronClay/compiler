@@ -21,3 +21,6 @@ Syntax: compiler src [-icode] [-sym] [-lex]
 - [-lex]   Will output all the tokens to the console.
 - [-sym]   Will output the symbol table to the console.
 - [-icode] Will output the intermediate code to the console.
+
+## Note
+The code for this project is private but I am more than happy to show and expain it during an interview.
