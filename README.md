@@ -1,5 +1,5 @@
 # Compiler
-Two pass compiler wtih a language similar to that of a hybrid of C and Java. Two pass compiler means the code is anyalzed twice and information from the first pass is used to do semantic checking and code generation during the second pass.
+Two pass compiler wtih a language similar to that of a hybrid of C and Java. Two pass compiler means the code is anyalzed twice and information from the first pass is used to do semantic checking and code generation during the second pass. Written in C++.
 
 ## About
 During the first pass of compilation, the code is parsed against the grammer, checked for syntax errors and a symbol table is constructed which serves to enable semantic error checking in the second pass of compilation.
