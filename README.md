@@ -7,13 +7,16 @@ The goal of the second pass is to perform semantic error checking, to generate i
 
 ## Features
 - Inheritance: Single inheritance.
-- Super syntax: Super(class_name).
-- Abstract syntax: public/private abstract fn()
+- Super syntax: super(class_name).
+- Abstract syntax: [public|private] abstract identifier()
 - Each class stores $vpointer which points to vtable for currently stored class
 - VTables are stored in directives and initialized afterwards
 - Supports switch statements.
 - Supports cstring output.
 - Supports conversion between integers and strings.
+
+## Unit Testing and Integration Testing
+Unit testing and integration testing is done using Boost.Test.
 
 ## How to run
 Syntax: compiler src [-icode] [-sym] [-lex]
