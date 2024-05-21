@@ -15,15 +15,6 @@ The goal of the second pass is to perform semantic error checking, to generate i
 - Supports cstring output.
 - Supports conversion between integers and strings.
 
-## Unit Testing and Integration Testing
-Unit testing and integration testing is done using Boost.Test.
-
-## Tooling
-- C++ 20
-- CMake
-- vcpkg
-- Boost.Test
-
 ## How to run
 ```
 compiler src [-icode] [-sym] [-lex]
@@ -33,5 +24,14 @@ compiler src [-icode] [-sym] [-lex]
 [-icode] Will output the intermediate code to the console.
 ```
 
-## Note
+### Unit Testing and Integration Testing
+- Unit testing and integration testing is done using Boost.Test.
+
+### Tooling
+- C++ 20
+- CMake
+- vcpkg
+- Boost.Test
+
+### Note
 The code for this project is private but I am more than happy to show and expain the code.
