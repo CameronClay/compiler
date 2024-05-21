@@ -19,7 +19,7 @@ The goal of the second pass is to perform semantic error checking, to generate i
 Unit testing and integration testing is done using Boost.Test.
 
 ## Tooling
-- C++
+- C++ 20
 - CMake
 - vcpkg
 - Boost.Test
