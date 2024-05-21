@@ -30,8 +30,8 @@ compiler src [-icode] [-sym] [-lex]
 ### Tooling
 - C++ 20
 - CMake
-- vcpkg
 - Boost.Test
+- vcpkg
 
 ### Note
 The code for this project is private but I am more than happy to show and expain the code.
