@@ -35,7 +35,7 @@ Allowed options:
 - Boost.Test
 - Boost.Program_options
 - vcpkg
-- MSVC compiler
+- g++ compiler
 
 ### Note
 The code for this project is private but I am more than happy to show and expain the code.
