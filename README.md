@@ -17,11 +17,13 @@ The goal of the second pass is to perform semantic error checking, to generate i
 
 ## How to run
 ```
-compiler src [-icode] [-sym] [-lex]
-
-[-lex]   Will output all the tokens to the console.
-[-sym]   Will output the symbol table to the console.
-[-icode] Will output the intermediate code to the console.
+Allowed options:
+  -h [ --help ]           Produce help message
+  -f [ --input-file ] arg Specifies the source file to be compiled into
+                          assembly.
+  -i [ --icode ]          Outputs the intermediate code.
+  -s [ --sym ]            Outputs the symbol table.
+  -l [ --lex ]            Outputs all the tokens
 ```
 
 ### Unit Testing and Integration Testing
@@ -31,6 +33,7 @@ compiler src [-icode] [-sym] [-lex]
 - C++ 20
 - CMake
 - Boost.Test
+- Boost.Program_options
 - vcpkg
 
 ### Note
